@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 
 const RatingStars = ({ totalRating }) => {
   const renderStars = () => {
@@ -16,7 +15,10 @@ const RatingStars = ({ totalRating }) => {
     if (remainingStar > 0) {
       const percentageFilled = (remainingStar * 100).toFixed(0);
       stars.push(
-        <span key="remaining" style={{ width: `${percentageFilled}%`, overflow: 'hidden' }}>
+        <span
+          key="remaining"
+          style={{ width: `${percentageFilled}%`, overflow: "hidden" }}
+        >
           &#9733;
         </span>
       );
