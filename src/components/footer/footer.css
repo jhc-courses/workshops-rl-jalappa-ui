@@ -2,3 +2,15 @@ svg{
     color: #343a40;
     margin-right: 20px;
 }
+footer {
+    margin-top: 5px; 
+  }
+  
+  .section1,
+  .section2 {
+    padding: 10px;
+  }
+  
+  .text-center {
+    font-size: 14px; 
+  }
