@@ -10,10 +10,10 @@ export default function Header() {
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center" href="#">
             <img src={img} alt="Logo" width="300" height="54" className="d-inline-block align-text-top" />
-            <div className="header ms-2 d-flex flex-column align-items-center">
-              <span className="d-block">Course Rater</span>
-            </div>
           </a>
+          <div className="header">
+              Course Rater
+            </div>
         </div>
       </nav>
     </div>
